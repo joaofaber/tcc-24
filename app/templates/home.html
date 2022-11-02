@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="nav">
+        <li class="navitem"><img src="https://cdn-icons-png.flaticon.com/512/483/483446.png" align="middle" class="icon"></li>
+        <li class="navitem"><p>Posto de atendimento</p></li>
+     </ul>
+
+    <p>
+        Olá! Se já está cadastrado em nosso sistemas precione <span><b>2</b></span> para continuar com o reconhecimento facial e emissão de senha
+    </p>
+    <p>
+        Caso nunca foi atendido neste hospital por favor dirija-se a secretaria
+    </p>
+
+</body>
+   <footer>
+      <div class="button-group">
+           <div class="vertical-center ">
+                <button type="button" class="button"><- 1- Editar dados</button>
+                <button type="button" class="button">2- Gerar senha -></button>
+           </div>
+      </div>
+  </footer>
+<style>
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #339933;
+}
+
+li{
+  float: left;
+}
+
+li p{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.button-group{
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}*/
+
+.vertical-center {
+  display: inline-flex;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button{
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #339933;
+    width: 300px;
+    text-align: center;
+}
+
+.icon{
+    height: 40px;
+    width: auto;
+    padding: 5px;
+}
+
+.button:hover {
+  background: #dddddd;
+}
+
+footer{
+    padding: 3rem;
+    margin-top: auto;
+}
+
+
+
+</style>
+
+
+</html>
