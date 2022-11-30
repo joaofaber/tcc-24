@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        <title>Captura de Vídeo</title>
+        <style>
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+        h4 {text-align: center;}
+        a {text-align: center;}
+        p {text-align: center;}
+        </style>
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expando-sm bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="" href="/listagem">LISTAGEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href="/insercao">NOVO</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <div class="container">
+            <div class="center">
+                <h2>Bem - vindo a Unidade de Saúde UNIP!</h2>
+                <center><img src="{{url_for('static', filename='logo_unip_saude.jpg')}}"></center>
+                <br>
+                <h3>Pessoas com atendimento preferencial (gestantes, crianças de colo, idosos, PCD e atendimentos emergências) por gentileza prosseguir com atendimento na recepção.</h3>
+                <br>
+                <h4>Se for seu primeiro atendimento em nossa unidade de saúde, não se preocupe! Vá a recepção.</h4>
+            </div>
+
+            <form action="/foto" method="POST" name="frm_foto" class="ml-3">
+
+            </form>
+            <br>
+            <br>
+            <h2><a href="/reconhecimento" class="btn btn-primary" role="button">Iniciar</a></h2>
+
+
+
+
+        </div>
+
+    </body>
+
+</html>

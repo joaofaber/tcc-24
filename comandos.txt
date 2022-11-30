@@ -1,0 +1,18 @@
+pip install "Flask==1.1.4"
+pip install "flask-sqlalchemy==2.5.0"
+pip install markupsafe==2.0.1
+pip install "werkzeug==1.0.1"
+pip install Flask-Migrate==2.6.0
+pip install flask-script
+pip install "dlib-19.22.99-cp310-cp310-win_amd64.whl
+pip install face_recognition
+pip install numpy
+pip install opencv-python
+pip install selenium
+pip3 install twilio
+
+
+python run.py runserver
+python run.py db init
+python run.py db migrate
+python run.py db upgrade
